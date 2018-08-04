@@ -11,6 +11,9 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+import sys
+sys.path.append("/var/www/AnalysisPySpiderFront/PySpiderFront")
+
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "PySpiderFront.settings")
 
 application = get_wsgi_application()
