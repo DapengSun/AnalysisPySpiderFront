@@ -25,12 +25,17 @@ def pushjobinqueue(request):
         _apiUrl = r'http://47.93.244.255:8085/lianjia/ershoufang/api/pushjobqueue'
         _spiderUrl = r'https://bj.lianjia.com/ershoufang/rs%s' % (_spiderContent)
 
-        data = {
+        _data = {
             "searchSpider" : _spiderUrl
         }
+        _response = requests.post(_apiUrl,data=json.dumps(_data))
+        _responseJson = json.loads(_response.text)
 
-        response = requests.post(_apiUrl,data=json.dumps(data))
+        # print(_responseJson)
 
-        return json_response(ReponseCode.正常.value,"检索内容已加入分析列表！",'')
+        if _responseJson['result'] == ReponseCode.正常.value:
+            return json_response(ReponseCode.正常.value,"检索内容已加入分析列表！",'')
+        else:
+            return json_response(ReponseCode.失败, "检索内容已加入分析列表失败！", _responseJson.message)
     except Exception as ex:
-        print(ex)
+        return json_response(ReponseCode.失败, "检索内容已加入分析列表异常！", ex.message)
