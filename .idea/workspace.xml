@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0235620c-6aea-44c3-b168-d37964f7856d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PySpiderFront/Common/EnumType.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PySpiderFront/Common/Reponse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySpiderFront/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PySpiderFront/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySpiderFront/LianJiaSpiderFront/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySpiderFront/LianJiaSpiderFront/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PySpiderFront/PySpiderFront/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySpiderFront/PySpiderFront/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PySpiderFront/PySpiderFront/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySpiderFront/PySpiderFront/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySpiderFront/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PySpiderFront/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="84" />
+          <entry key="py" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="84" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
     </session>
@@ -47,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/PySpiderFront/PySpiderFront/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -56,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/PySpiderFront/PySpiderFront/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
               <folding>
                 <element signature="e#622#663#0" expanded="true" />
               </folding>
@@ -311,14 +316,14 @@
     <entry file="file://$PROJECT_DIR$/PySpiderFront/PySpiderFront/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PySpiderFront/PySpiderFront/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
           <folding>
             <element signature="e#622#663#0" expanded="true" />
           </folding>

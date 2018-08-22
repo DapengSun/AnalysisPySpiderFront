@@ -105,3 +105,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static/'),
 ]
+
+# 接口服务器地址
+Api_Address = 'http://47.93.244.255:8085/'

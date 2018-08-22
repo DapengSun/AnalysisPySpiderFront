@@ -19,9 +19,9 @@
         <h1>链家二手房搜索</h1>
         <p>通过分析您的搜索结果，我们能够给您推荐更合理的房源！</p>
         <div class="input-group input-group-lg"> <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></span>
-          <input type="text" class="form-control" placeholder="输入关键词" aria-describedby="sizing-addon1"/>
+          <input id="SearchContent" type="text" class="form-control" placeholder="输入关键词" aria-describedby="sizing-addon1"/>
           <span class="input-group-btn">
-          <button class="btn btn-default" type="button">搜 索</button>
+          <button id="SearchButton" class="btn btn-default" type="button">搜 索</button>
           </span> </div>
       </div>
     </div>
@@ -36,6 +36,25 @@ $(document).ready(function() {
 	movementFactor: 50
   });
 });
+
+$("#SearchButton").click(function () {
+    var SearchContent = $("#SearchContent").val()
+
+
+    data = {
+        "SearchContent" : SearchContent
+    }
+
+    $.post('/lianjia/ershoufang/pushjobinqueue',data,function(data){
+        if(data.result = 200){
+            alert(data.message)
+        }else{
+            alert("出现异常！")
+        }
+
+    },'json')
+})
+
 </script>
 
 </body>
