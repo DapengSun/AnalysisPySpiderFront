@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 # from LianJiaSpiderFront.views import searchindex
-from ..LianJiaSpiderFront.views import searchindex,pushjobinqueue
+from LianJiaSpiderFront.views import searchindex,pushjobinqueue
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
